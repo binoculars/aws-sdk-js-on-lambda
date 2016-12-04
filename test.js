@@ -1,5 +1,6 @@
 import https from 'https';
 import * as packageJson from './package.json';
+import * as packageJsonSDK from './aws-sdk-js/package.json';
 import test from 'ava';
 
 function request(url) {
@@ -21,9 +22,8 @@ const lambdaVersionsUrl = 'https://docs.aws.amazon.com/lambda/latest/dg/current-
 
 test('it should have the correct version', async t => {
 	const response = await request(lambdaVersionsUrl);
-	const pinnedVersion = packageJson.dependencies['aws-sdk-pinned'].match(/\d+\.\d+\.\d+$/)[0];
 	const responseVersion = response.match(/version (\d+\.\d+\.\d+)/)[1];
 
 	t.is(packageJson.version, responseVersion);
-	t.is(pinnedVersion, responseVersion);
+	t.is(packageJsonSDK.version, responseVersion);
 });

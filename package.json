@@ -3,7 +3,7 @@
   "version": "2.6.9",
   "description": "The current aws-sdk-js version on AWS Lambda, useful for testing",
   "repository": "git@github.com:binoculars/aws-sdk-js-on-lambda.git",
-  "main": "node_modules/aws-sdk/lib/aws.js",
+  "main": "aws-sdk-js/lib/aws.js",
   "scripts": {
     "test": "ava"
   },
@@ -14,9 +14,6 @@
   ],
   "author": "Barrett K. Harber",
   "license": "Unlicense",
-  "dependencies": {
-    "aws-sdk": "2.6.9"
-  },
   "devDependencies": {
     "ava": "^0.17.0"
   }
