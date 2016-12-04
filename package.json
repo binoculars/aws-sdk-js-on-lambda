@@ -1,5 +1,5 @@
 {
-  "name": "aws-sdk-js-on-lambda",
+  "name": "aws-sdk",
   "version": "2.6.9",
   "description": "The current aws-sdk-js version on AWS Lambda, useful for testing",
   "repository": "git@github.com:binoculars/aws-sdk-js-on-lambda.git",
