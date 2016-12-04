@@ -17,5 +17,8 @@
   "license": "Unlicense",
   "devDependencies": {
     "ava": "^0.17.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.6.9"
   }
 }
