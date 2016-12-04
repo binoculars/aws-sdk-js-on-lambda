@@ -21,8 +21,9 @@ const lambdaVersionsUrl = 'https://docs.aws.amazon.com/lambda/latest/dg/current-
 
 test('it should have the correct version', async t => {
 	const response = await request(lambdaVersionsUrl);
-	const responseVersion = response.match(/version (\d\.\d\.\d)/)[1];
+	const pinnedVersion = packageJson.dependencies['aws-sdk-pinned'].match(/\d+\.\d+\.\d+$/)[0];
+	const responseVersion = response.match(/version (\d+\.\d+\.\d+)/)[1];
 
 	t.is(packageJson.version, responseVersion);
-	t.is(packageJson.dependencies['aws-sdk'], responseVersion);
+	t.is(pinnedVersion, responseVersion);
 });
