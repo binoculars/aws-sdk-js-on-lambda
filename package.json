@@ -1,0 +1,22 @@
+{
+  "name": "aws-sdk-js-on-lambda",
+  "version": "2.6.9",
+  "description": "The current aws-sdk-js version on AWS Lambda, useful for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "aws",
+    "aws-sdk",
+    "lambda"
+  ],
+  "author": "Barrett K. Harber",
+  "license": "Unlicense",
+  "dependencies": {
+    "aws-sdk": "2.6.9"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0"
+  }
+}
