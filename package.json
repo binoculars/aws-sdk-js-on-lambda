@@ -5,6 +5,7 @@
   "repository": "git@github.com:binoculars/aws-sdk-js-on-lambda.git",
   "main": "aws-sdk-js/lib/aws.js",
   "scripts": {
+    "postinstall": "cd aws-sdk-js && git submodule init",
     "test": "ava"
   },
   "keywords": [
