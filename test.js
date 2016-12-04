@@ -1,6 +1,5 @@
 import https from 'https';
 import * as packageJson from './package.json';
-import * as packageJsonSDK from './aws-sdk-js/package.json';
 import test from 'ava';
 
 function request(url) {
@@ -25,5 +24,5 @@ test('it should have the correct version', async t => {
 	const responseVersion = response.match(/version (\d+\.\d+\.\d+)/)[1];
 
 	t.is(packageJson.version, responseVersion);
-	t.is(packageJsonSDK.version, responseVersion);
+	t.is(packageJson.dependencies['aws-sdk'], responseVersion);
 });

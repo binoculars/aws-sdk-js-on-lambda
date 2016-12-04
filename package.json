@@ -5,7 +5,6 @@
   "repository": "git@github.com:binoculars/aws-sdk-js-on-lambda.git",
   "main": "aws-sdk-js/lib/aws.js",
   "scripts": {
-    "postinstall": "cd aws-sdk-js && git submodule init",
     "test": "ava"
   },
   "keywords": [
@@ -15,10 +14,10 @@
   ],
   "author": "Barrett K. Harber",
   "license": "Unlicense",
+  "dependencies": {
+    "aws-sdk": "2.6.9"
+  },
   "devDependencies": {
     "ava": "^0.17.0"
-  },
-  "dependencies": {
-    "aws-sdk": "^2.6.9"
   }
 }
