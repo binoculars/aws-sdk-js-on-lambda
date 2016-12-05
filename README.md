@@ -12,13 +12,13 @@ npm v3 or later is required (flat dependencies).
 ```shell
 npm i -g npm@latest && \
 npm r -D aws-sdk && \
-npm i -D aws-sdk-on-lambda@latest
+npm i -D binoculars/aws-sdk-js-on-lambda
 ```
 
 ### Yarn
 ```shell
 yarn remove aws-sdk && \
-yarn add --dev aws-sdk-on-lambda@latest && \
+yarn add --dev binoculars/aws-sdk-js-on-lambda && \
 yarn install --flat
 ```
 
