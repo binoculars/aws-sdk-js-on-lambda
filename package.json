@@ -3,7 +3,6 @@
   "version": "2.6.9",
   "description": "The current aws-sdk-js version on AWS Lambda, useful for testing",
   "repository": "git@github.com:binoculars/aws-sdk-js-on-lambda.git",
-  "main": "aws-sdk-js/lib/aws.js",
   "scripts": {
     "test": "ava"
   },
@@ -19,5 +18,6 @@
   },
   "devDependencies": {
     "ava": "^0.17.0"
-  }
+  },
+  "main": "index.js"
 }
