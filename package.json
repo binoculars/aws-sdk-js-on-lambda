@@ -4,6 +4,7 @@
   "description": "The current aws-sdk-js version on AWS Lambda, useful for testing",
   "repository": "git@github.com:binoculars/aws-sdk-js-on-lambda.git",
   "scripts": {
+    "pretest": "./pretest.js",
     "test": "ava"
   },
   "keywords": [
