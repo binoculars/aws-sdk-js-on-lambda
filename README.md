@@ -28,5 +28,5 @@ As you normally would...
 ```js
 const AWS = require('aws-sdk');
 // or
-import AWS from 'aws-sdk;
+import AWS from 'aws-sdk';
 ````
