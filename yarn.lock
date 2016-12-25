@@ -209,9 +209,9 @@ ava@^0.17.0:
     unique-temp-dir "^1.0.0"
     update-notifier "^1.0.0"
 
-aws-sdk@2.6.9:
-  version "2.6.9"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.6.9.tgz#4e9403a4ad57dbc915a109c0a68ed4777911286b"
+aws-sdk@2.7.10:
+  version "2.7.10"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.7.10.tgz#d914ca2bdb6ff8b48cdbc20d617b7c6b6031c138"
   dependencies:
     buffer "4.9.1"
     crypto-browserify "1.0.9"
@@ -219,6 +219,7 @@ aws-sdk@2.6.9:
     querystring "0.2.0"
     sax "1.1.5"
     url "0.10.3"
+    uuid "3.0.0"
     xml2js "0.4.15"
     xmlbuilder "2.6.2"
 
@@ -2730,6 +2731,10 @@ url@0.10.3:
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
+
+uuid@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.0.tgz#6728fc0459c450d796a99c31837569bdf672d728"
 
 uuid@^2.0.1:
   version "2.0.3"
