@@ -20,5 +20,5 @@
   "devDependencies": {
     "ava": "^0.17.0"
   },
-  "main": "index.js"
+  "main": "node_modules/aws-sdk/dist/aws-sdk.js"
 }
