@@ -18,9 +18,11 @@ yarn upgrade aws-sdk@$REMOTE_VERSION
 git commit -am "Upgrade aws-sdk version"
 yarn version --new-version $REMOTE_VERSION
 
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 chmod 600 deploy_key
 eval `ssh-agent -s`
 ssh-add deploy_key
 
-git push origin $TARGET_BRANCH
-git push --tags
+git push $SSH_REPO $TARGET_BRANCH
+git push $SSH_REPO --tags

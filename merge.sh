@@ -14,8 +14,10 @@ fi
 git checkout $TARGET_BRANCH
 git merge $SOURCE_BRANCH
 
+REPO=`git config remote.origin.url`
+SSH_REPO=${REPO/https:\/\/github.com\//git@github.com:}
 chmod 600 deploy_key
 eval `ssh-agent -s`
 ssh-add deploy_key
 
-git push origin $TARGET_BRANCH
+git push $SSH_REPO $TARGET_BRANCH
