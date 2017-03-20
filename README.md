@@ -1,4 +1,6 @@
 # aws-sdk-js-on-lambda
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/binoculars/aws-sdk-js-on-lambda.svg)](https://greenkeeper.io/)
 > The current aws-sdk-js version on AWS Lambda, useful for testing
 
 [![Build Status](https://travis-ci.org/binoculars/aws-sdk-js-on-lambda.svg?branch=master)](https://travis-ci.org/binoculars/aws-sdk-js-on-lambda)
