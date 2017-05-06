@@ -15,7 +15,7 @@
   "author": "Barrett K. Harber",
   "license": "Unlicense",
   "dependencies": {
-    "aws-sdk": "2.22.0"
+    "aws-sdk": "2.45.0"
   },
   "devDependencies": {
     "ava": "^0.17.0"
