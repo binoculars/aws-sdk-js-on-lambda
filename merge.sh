@@ -11,6 +11,7 @@ if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]
     exit 0
 fi
 
+git fetch origin $TARGET_BRANCH:$TARGET_BRANCH
 git checkout $TARGET_BRANCH
 git merge $SOURCE_BRANCH
 

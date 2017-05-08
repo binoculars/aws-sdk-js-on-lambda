@@ -1,6 +1,6 @@
 {
   "name": "aws-sdk-on-lambda",
-  "version": "2.7.10",
+  "version": "2.45.0",
   "description": "The current aws-sdk-js version on AWS Lambda, useful for testing",
   "repository": "git@github.com:binoculars/aws-sdk-js-on-lambda.git",
   "scripts": {
@@ -15,7 +15,7 @@
   "author": "Barrett K. Harber",
   "license": "Unlicense",
   "dependencies": {
-    "aws-sdk": "2.7.10"
+    "aws-sdk": "2.45.0"
   },
   "devDependencies": {
     "ava": "^0.17.0"

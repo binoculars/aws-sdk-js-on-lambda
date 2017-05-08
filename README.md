@@ -2,6 +2,7 @@
 > The current aws-sdk-js version on AWS Lambda, useful for testing
 
 [![Build Status](https://travis-ci.org/binoculars/aws-sdk-js-on-lambda.svg?branch=master)](https://travis-ci.org/binoculars/aws-sdk-js-on-lambda)
+[![Known Vulnerabilities](https://snyk.io/test/github/binoculars/aws-sdk-js-on-lambda/badge.svg)](https://snyk.io/test/github/binoculars/aws-sdk-js-on-lambda)
 
 ## Usage
 If you already have the aws-sdk installed as a devDependency, remove it.
@@ -28,5 +29,5 @@ As you normally would...
 ```js
 const AWS = require('aws-sdk');
 // or
-import AWS from 'aws-sdk;
+import AWS from 'aws-sdk';
 ````
