@@ -216,12 +216,11 @@ ava@^0.17.0:
     unique-temp-dir "^1.0.0"
     update-notifier "^1.0.0"
 
-aws-sdk@2.176.0:
-  version "2.176.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.176.0.tgz#2723c14e1c623ac45c5b890a3fc736eee8085f67"
+aws-sdk@^2.190.0:
+  version "2.190.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.190.0.tgz#c7b48b3845345b60795943eb919700cf7edf5734"
   dependencies:
     buffer "4.9.1"
-    crypto-browserify "1.0.9"
     events "^1.1.1"
     jmespath "0.15.0"
     querystring "0.2.0"
@@ -1095,10 +1094,6 @@ cryptiles@2.x.x:
   resolved "https://registry.yarnpkg.com/cryptiles/-/cryptiles-2.0.5.tgz#3bdfecdc608147c1c67202fa291e7dca59eaa3b8"
   dependencies:
     boom "2.x.x"
-
-crypto-browserify@1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/crypto-browserify/-/crypto-browserify-1.0.9.tgz#cc5449685dfb85eb11c9828acc7cb87ab5bbfcc0"
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
