@@ -5,7 +5,9 @@
   "repository": "git@github.com:binoculars/aws-sdk-js-on-lambda.git",
   "scripts": {
     "pretest": "./pretest.js",
-    "test": "ava"
+    "test": "ava",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "keywords": [
     "aws",
@@ -15,10 +17,12 @@
   "author": "Barrett K. Harber",
   "license": "Unlicense",
   "dependencies": {
-    "aws-sdk": "2.221.1"
+    "aws-sdk": "2.221.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "ava": "^0.17.0"
   },
-  "main": "node_modules/aws-sdk/dist/aws-sdk.js"
+  "main": "node_modules/aws-sdk/dist/aws-sdk.js",
+  "snyk": true
 }
